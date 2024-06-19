@@ -32,7 +32,6 @@ body.no-scroll {
   overflow: hidden;
 }
 
-
 @keyframes ambientAnimation {
   0% {
     background-position: 0% 50%;
@@ -95,6 +94,7 @@ body.no-scroll {
 .card-container {
   max-width: 1300px;
   min-height: 80vh;
+  min-height: 80dvh;
   margin: 0 auto;
   padding: 10px;
   display: flex;
